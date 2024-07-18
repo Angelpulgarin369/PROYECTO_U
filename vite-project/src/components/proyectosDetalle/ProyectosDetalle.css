@@ -1,0 +1,155 @@
+.detalle-contenedor {
+  padding: 20px;
+  max-height: 100vh; /* Limita la altura máxima del contenedor a la altura de la ventana gráfica */
+}
+
+.detalle-proyecto {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Asegura el desplazamiento dentro del contenedor si es necesario */
+}
+
+.carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.carrusel-contenedor {
+  position: relative;
+  width: 100%;
+  height: 15em; /* Ajusta la altura del contenedor */
+  overflow: hidden; /* Oculta cualquier desbordamiento para mantener el diseño limpio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Fondo gris claro para imágenes más pequeñas */
+}
+
+.carrusel-imagen {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin recortarse */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para darle profundidad */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Añade una transición suave para transformaciones */
+}
+
+.carrusel-imagen:hover {
+  transform: scale(1.05); /* Agranda ligeramente la imagen al pasar el ratón por encima */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Incrementa la sombra al pasar el ratón por encima */
+}
+
+
+
+.carrusel-boton {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.detalle-titulo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.detalle-descripcion, .detalle-detalles, .nota-calificacion, .descripcion-calificacion, .ver-pdf {
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para la calificación */
+.nota-calificacion {
+  font-size: 1.2rem;
+  color: #ee0a0a;
+}
+
+.descripcion-calificacion {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Estilos específicos para el botón VER PDF */
+.ver-pdf {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ver-pdf:hover {
+  background-color: #c4421b;
+}
+
+.proyecto-detalles h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.proyecto-detalles ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px; /* Añade espacio a la izquierda de las listas para una mejor legibilidad */
+}
+
+.proyecto-detalles p, .proyecto-detalles ul {
+  margin-bottom: 20px;
+}
+
+/* Estilos específicos para el botón VOLVER */
+.volver-boton {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #190019, #2b124c);
+  color: #ffffff;
+  font-weight: bold;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.volver-boton:hover {
+  background: linear-gradient(45deg, #2b124c, #190019);
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  color: #df601c;
+}
+
+/* Ajustes adicionales para mejorar el flujo del contenido */
+.detalle-contenedor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.detalle-contenedor::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.detalle-contenedor::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  

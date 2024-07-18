@@ -1,0 +1,175 @@
+/* Estilos generales */
+.acerca-de-mi {
+  font-family: Arial, sans-serif;
+  padding: 65px; /* Espaciado interior */
+  background-color: #fff; /* Fondo blanco */
+  background-image: none; /* Elimina la imagen de fondo */
+}
+
+
+/* Ajuste visual específico para un contenedor */
+.acercaDeMi-container {
+  margin-bottom: 95em; /* Ajuste visual para separación */
+}
+
+
+/* Estilos para secciones de contenido */
+.section {
+  margin-bottom: 40px; /* Espaciado entre secciones */
+  padding: 20px; /* Relleno interior */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  background-color: #fff; /* Fondo blanco */
+}
+
+.section:nth-child(odd) {
+  background-color: #f2f5f7;
+}
+
+/* Contenedor general */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Estilos para el contenido */
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Estilos para las imágenes y textos */
+.img-mision,
+.img-vision {
+  width: calc(50% - 20px);
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.img-mision img,
+.img-vision img {
+  width: 85%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.img-mision h2,
+.img-vision h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.img-mision p,
+.img-vision p {
+  font-size: 1.1em;
+}
+
+/* Estilos específicos para el contenido de Presentación Personal */
+.presentacion-personal {
+  background-color: #f2f5f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentacion-personal h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.presentacion-personal p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Estilos específicos para el contenido de Misión y Visión */
+.mision-vision {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mision-vision h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mision-vision p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555;
+}
+
+.mision-vision ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.mision-vision li {
+  margin-bottom: 5px;
+}
+
+.mision-vision img {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para centrar la imagen y el texto en Áreas de interés */
+.centrar {
+  text-align: center;
+}
+
+.centrar .image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centrar img {
+  margin-top: 20px;
+  width: 85%;
+}
+
+/* Estilos para el botón de ir al inicio */
+.btn-navbar {
+  /* Se conservan los estilos originales del padding, font-size y cursor */
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+
+  /* Se aplican los estilos del botón de búsqueda */
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #190019, #2b124c);
+  color: #ffffff;
+  font-weight: bold;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    color: #ca5516;
+  }
+}
+
+
+
+
+
+
+
+
+
+

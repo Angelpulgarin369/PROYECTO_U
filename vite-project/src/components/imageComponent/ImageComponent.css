@@ -1,0 +1,43 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px; /* Ajusta el ancho según tus necesidades */
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    position: absolute; /* Posicionamiento absoluto para superponer */
+    top: 200px; /* Ajusta la distancia desde arriba según necesites */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    border: 2px solid #6f62e6; /* Borde del portarretrato */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para la tarjeta */
+    background-color: #eeedf5; /* Fondo de la tarjeta */
+    padding: 20px; /* Espacio interno alrededor de la imagen */
+    z-index: 3; /* Asegura que esté encima del contenido */
+    animation: pulse 3s infinite alternate; /* Animación constante */
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #c2e01a; /* Borde alrededor de la imagen */
+    border-radius: 10px; /* Borde redondeado de la imagen */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: translateX(-50%) scale(1);
+    }
+    100% {
+      transform: translateX(-50%) scale(1.1);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  

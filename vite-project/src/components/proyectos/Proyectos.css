@@ -1,0 +1,125 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--of-white-color);
+  min-height: 100vh; /* Establece una altura mínima para ocupar toda la pantalla */
+  box-sizing: border-box; /* Asegura que el padding no afecte la altura total */
+}
+
+.descripcion {
+  text-align: center;
+  margin-bottom: 3em; /* Ajustado para reducir el espacio */
+  margin-top: 102em; /* Ajusta según tus necesidades */
+}
+
+.cont-des h1 {
+  font-size: 2.5em; /* Aumentado el tamaño del título */
+  color: var(--secondary-color);
+}
+
+.descripcion p {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  line-height: 1.6rem; /* Reducido el line-height para mejorar la legibilidad */
+  margin-bottom: 1.5em; /* Ajustado para reducir el espacio */
+}
+
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px; /* Incrementado el espacio entre las tarjetas */
+}
+
+.card {
+  background-color: var(--of-white-color);
+  padding: 20px;
+  border-radius: 10px; /* Aumentado el radio del borde */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Ajustada la sombra */
+  width: 320px; /* Aumentado el ancho de la tarjeta */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-bottom: 30px; /* Aumentado el margen inferior */
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(172, 16, 16, 0.3); /* Ajustada la sombra en hover */
+}
+
+.imagen-proyecto {
+  width: 100%; /* Asegura que la imagen llene el contenedor */
+  height: 200px; /* Tamaño fijo para todas las imágenes */
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+.titulo-proyecto {
+  font-size: 1.3em; /* Aumentado el tamaño del título */
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-align: center;
+  color: #181fe4; /* Color fijo para el título */
+}
+
+.descripcion-proyecto {
+  font-size: 1.1em; /* Aumentado el tamaño del texto */
+  color: var(--secondary-color);
+  text-align: justify;
+  flex-grow: 1; /* Hace que la descripción ocupe el espacio disponible */
+}
+
+.ver-proyecto {
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px; /* Incrementado el margen superior */
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.ver-proyecto:hover,
+.ver-proyecto:focus {
+  color: #ff5733; /* Cambia el color al pasar el mouse o hacer clic */
+}
+
+.ver-proyecto::after {
+  content: "";
+  display: block;
+  width: 70px; /* Aumentado el tamaño del indicador */
+  height: 2px;
+  background-color: var(--primary-color);
+  margin: 8px auto 0;
+}
+
+/* Estilos para el botón ir a la pagina inicial */
+.btn-navbar {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+
+  /* Se aplican los estilos del botón de búsqueda */
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #190019, #2b124c);
+  color: #ffffff;
+  font-weight: bold;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    color: #df601c;
+  }
+}
+
+
+
+
+  
+  

@@ -1,0 +1,150 @@
+/* Experiencias.css */
+
+.experiencias-wrapper {
+  min-height: 150vh; /* Para asegurar que el contenedor ocupe al menos la altura de la ventana */
+  padding-bottom: 1px; /* Para asegurar que el contenido no se corte al final */
+  padding-top: 20px;
+  background-color: #2bec45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 3em; /* Tamaño más grande para el título */
+  text-align: center;
+  margin-bottom: 30px;
+  color: #70e133;
+  font-family: 'Roboto', sans-serif;
+}
+
+.experiencias-container {
+  max-width: 800px;
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  margin: auto;
+  padding: 113em 3em 3em 3em; /* Ajuste de padding aqui se puede subir o bajar en la pantalla */
+  background: url('https://tse4.mm.bing.net/th?id=OIP.V06bS71ecgSlNWhh1sX4GgHaEK&pid=Api&P=0&h=180.JPEG') no-repeat center center;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+
+.experiencia-item {
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.experiencia-item h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em; /* Tamaño más grande para los subtítulos */
+  color: #fff;
+}
+
+.fecha {
+  font-style: italic;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+.ubicacion {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.responsabilidades h4,
+.logros h4,
+.habilidades h4 {
+  font-size: 1.3em; /* Tamaño más grande para los encabezados de secciones */
+  color: #212020;
+  margin-bottom: 10px;
+}
+
+.responsabilidades ul,
+.logros ul,
+.habilidades ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #bbb;
+}
+
+.responsabilidades li,
+.logros li,
+.habilidades li {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+/* estilos de las letras de constancia de TA */
+.styled-paragraph {
+  font-size: 17px;       /* Tamaño de la fuente */
+  color: #383735;           /* Color del texto */
+  font-weight: bold;     /* Peso de la fuente */
+  text-align: center;    /* Alineación del texto */
+  margin: 13px 0;        /* Márgenes superior e inferior */
+}
+
+.qr-code {
+  width: 45em; /* Ajuste de ancho */
+  height: 30em; /* Ajuste de alto */
+  margin-top: 10px; /* Separación superior */
+  top: 20px; /* Ajuste de posición superior */
+  right: 20px; /* Ajuste de posición derecha */
+  border: 2px solid #ccc; /* Borde alrededor del código QR */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(255, 255, 255, 0.5); /* Sombra y brillo */
+  animation: fadeIn 5s ease-in-out; /* Animación de aparición */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .experiencias-container {
+    padding: 10px;
+  }
+}
+
+/* Estilos para el botón ir a la pagina inicial */
+.btn-navbar {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+
+  /* Se aplican los estilos del botón de búsqueda */
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #190019, #2b124c);
+  color: #ffffff;
+  font-weight: bold;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    background: linear-gradient(45deg, #2b124c, #190019);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    color: #df601c;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  

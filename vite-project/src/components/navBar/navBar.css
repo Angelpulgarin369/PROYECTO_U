@@ -1,0 +1,109 @@
+.top-section {
+  display: flex;
+  align-items: center;
+  background-color: #7d6e57; /* Color de fondo del rectángulo superior */
+  padding: 10px;
+  margin-bottom: 1px; /* Espacio entre la sección superior y la barra de navegación */
+}
+
+.app-info {
+  display: flex;
+  align-items: center;
+  margin-right: 100px; /* Espacio entre la imagen y el texto */
+}
+
+.app-image {
+  width: 175px; /* Aumenta el ancho deseado para hacer la imagen más grande */
+  height: auto; /* Altura automática para mantener la proporción de aspecto */
+  margin-right: 0; /* Elimina el margen derecho para centrar la imagen junto al texto */
+}
+
+.app-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0); /* Color del texto del nombre de la aplicación */
+}
+
+.navbar-container {
+  background-color: #773a79; /* Color de fondo de la barra de navegación */
+  padding: 15px;
+  backdrop-filter: blur(10px); /* Efecto de desenfoque para el fondo */
+  border-radius: 5px;
+  margin-left: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FFD700;
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+.search-bar {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  width: 150px; /* Ancho deseado para la barra de búsqueda */
+}
+
+/* Estilo para el botón de búsqueda */
+.search-bar button {
+  padding: 8px 16px; /* Ajusta el espaciado del botón */
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(45deg, #190019, #2b124c); /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-bar button:hover {
+  background: linear-gradient(45deg, #2b124c, #190019); /* Color de fondo del botón al pasar el mouse */
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  color: #fbe4d8; /* Cambio de color del texto del botón al pasar el mouse */
+}
+
+/* Fondo de la página */
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+

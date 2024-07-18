@@ -1,0 +1,78 @@
+.landing-container {
+  position: relative;
+  padding-top: 350px; /* Ajusta según el espacio deseado entre la imagen y el contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #efe6e6;
+}
+
+.landing-content {
+  text-align: center;
+  background-color: rgba(11, 11, 11, 0.93); /* Fondo semitransparente para mejorar la legibilidad */
+  padding: 1em;
+  border-radius: 10px;
+  z-index: 2; /* Asegura que esté encima de la imagen */
+}
+
+.landing-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.landing-title-circle {
+  font-size: 1.5em;
+}
+
+.landing-title-line {
+  margin-bottom: 10px;
+}
+
+.landing-button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #f4eded;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.landing-button:hover {
+  background-color: #00b38f;
+}
+
+.social-section {
+  margin-top: 30px;
+}
+
+.social-message {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #f4eded;
+  margin: 0 25px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007BFF;
+}
+
+
+
+
+
